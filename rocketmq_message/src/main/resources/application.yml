@@ -1,0 +1,7 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: rocketmq_message
+rocketmq:
+  name-server: 192.168.0.128:9876

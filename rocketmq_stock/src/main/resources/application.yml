@@ -1,0 +1,12 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: rocketmq_stock
+  datasource:
+    url: jdbc:mysql://192.168.0.128:3308/rocketmq?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+rocketmq:
+  name-server: 192.168.0.128:9876 #rocketmq地址

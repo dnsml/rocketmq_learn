@@ -1,0 +1,14 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: rocketmq_order
+  datasource:
+    url: jdbc:mysql://192.168.0.128:3308/rocketmq?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+rocketmq:
+  name-server: 192.168.0.128:9876 #rocketmq地址
+  producer:
+    group: producer-group #自定义组名
